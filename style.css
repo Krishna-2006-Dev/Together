@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+body{
+    background-image: url(heart_bg.webp);  /* to add background */
+    background-repeat: no-repeat;  /* it makes no to print same image again inn same web (it makes next as empty as white) */
+    background-position: center;  /* to get image perfect size for screen/center */
+    background-attachment: fixed;  /* use to  fix the same image in html */
+    background-size: cover;  /* covers full image in page */
+}
+
+header {
+    text-align: center;
+    text-shadow:5px 3px 3px rgb(174, 57, 57);
+    font-family:'Mr Dafoe',sans-serif;
+    color: #de7e6a;
+}
+
+#flames {
+    text-align:center;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+span {
+    text-align: center;
+    background-color: white;
+    padding: 7px;
+    border :2px solid black;
+    color: #9f1111;
+}
+
+span:hover {
+    transform: scale(1.15);
+    color:rgb(192, 32, 48);
+}
+
+.choice {
+    text-align: center;
+    text-align: auto;
+    display:none;
+}
+
+
+.names{
+    text-align:center;
+    color:rgb(238, 23, 177);
+    font-size: 20px;
+}
+
+#submit {
+    background-color:#dd6262;
+}
+
+#submit:hover {
+    transform: scale(1.15);
+    background-color: #d6524a;
+}
+
+
+#myname {
+    color: burlywood;
+}
+
+#usercrush {
+    color: pink;
+}
+
+#result {
+    text-align: center;
+    color: #d6524a;
+}
+
+#result:hover {
+    transform: scale(1.15);
+    color:rgb(218, 33, 147);
+}
+
+footer {
+    color:aqua;
+}
+
+#mySelf:hover {
+    transform: scale(1.15);
+    color:rgb(30, 168, 168);
+}
+
+a.{
+    color:rgb(21, 186, 186)
+}
+
+a:hover {
+    color:rgb(30, 168, 168);
+    transform: scale(1.15);
+}
